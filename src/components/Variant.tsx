@@ -45,7 +45,7 @@ const Laser = styled.div<VariantProps>`
   ${(props) =>
     props.active &&
     css`
-      box-shadow: inset 0 0 0 7px rgba(252, 114, 87, 0.24), inset 0 0 0 3px rgba(252, 114, 87, 0.24), 0 0 0 2px #fc7459 !important;
+      box-shadow: inset 0 0 0 7px rgba(105, 207, 138, 0.24), inset 0 0 0 3px rgba(105, 207, 138, 0.24), 0 0 0 2px #69cf8a !important;
     `}
 `
 

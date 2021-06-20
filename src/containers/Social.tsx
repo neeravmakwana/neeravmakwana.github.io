@@ -44,31 +44,8 @@ const SocialLink = styled.a<LinkProps>`
 const Social: React.FC<Props> = () => {
   return (
     <Wrapper>
-      <span>
-        {"Powered by "}
-        <a href="https://stake.fish/" target="_blank" rel="noreferrer">
-          stakefish
-        </a>
-        {" & "}
-        <a href="https://www.f2pool.com/" target="_blank" rel="noreferrer">
-          f2pool
-        </a>
-      </span>
-      <Dropdown
-        title={<SvgIcon iconKey="twitter" />}
-        data={[
-          { name: "f2pool", url: "https://twitter.com/f2pool_official" },
-          { name: "stakefish", url: "https://twitter.com/stakefish" },
-        ]}
-      />
-      <SocialLink href="https://t.me/stakefish" target="_blank" rel="noreferrer">
-        <SvgIcon iconKey="telegram" />
-      </SocialLink>
-      <SocialLink href="https://instagram.com/stakedotfish" target="_blank" rel="noreferrer">
-        <SvgIcon iconKey="instagram" />
-      </SocialLink>
-      <SocialLink href="https://github.com/stakefish/crypto-laser-eyes" target="_blank" rel="noreferrer">
-        <SvgIcon iconKey="github" />
+      <SocialLink href="https://twitter.com/NeeravMakwana" target="_blank" rel="noreferrer">
+        <SvgIcon iconKey="twitter" />
       </SocialLink>
     </Wrapper>
   )

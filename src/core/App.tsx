@@ -40,7 +40,6 @@ const App: React.FC = () => {
   return (
     <Layout>
       <Main>
-        <Header />
         <Playground laser={state.laser} portrait={state.portrait} onDrop={onDrop} />
         <Lasers activeLaser={state.laser} onClick={onClick} />
         <Footer />

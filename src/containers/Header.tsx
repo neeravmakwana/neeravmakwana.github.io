@@ -53,10 +53,7 @@ const Header: React.FC<Props> = () => {
       <Grid as={FluidGrid} fluid>
         <Row middle="xs" center="xs" between="sm">
           <Col>
-            <Logo>
-              <img src="images/logo.svg" alt="" />
-              crypto<span>lasereyes</span>
-            </Logo>
+            
           </Col>
 
           {!isMobile && (

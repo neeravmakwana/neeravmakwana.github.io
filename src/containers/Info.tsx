@@ -40,15 +40,15 @@ const Info: React.FC<Props> = ({ onDrop }: Props) => {
   })
 
   return (
-    <Wrapper>
+    <Wrapper><a href = "https://unite.shopify.com/" target="_blank">
       <Title>
-        Laser <br />
-        Yourself
+        Shopify <br />
+        UNITE
       </Title>
       <Text>
-        Are you a true brrrrliever? <br />
-        Choose your laser eyes and tell the world!
-      </Text>
+        CODING COMMERCE. <br />
+        TOGETHER.
+      </Text></a>
 
       <Button {...getRootProps()}>
         <SvgIcon iconKey="photo" />

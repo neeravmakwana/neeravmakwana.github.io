@@ -170,8 +170,8 @@ const ButtonGroup = styled.div`
 
 const Sandbox: React.FC<Props> = ({ laser = Laser.Gold, portrait }: Props) => {
   const [state, setState] = useSetState<{ [key: string]: IPoint | undefined }>({
-    left: { x: 236, y: 31.81867850138373 },
-    right: { x: 270, y: 30.816437664763399 },
+    left: { x: 240, y: 162 },
+    right: { x: 335, y: 180 },
   })
 
   const stageRef = useRef(null)
@@ -201,7 +201,7 @@ const Sandbox: React.FC<Props> = ({ laser = Laser.Gold, portrait }: Props) => {
       stageRef.current.toImage({
         pixelRatio: 3,
         callback(img: any) {
-          download(img.src, "crypto-laser-eyes.png")
+          download(img.src, "Shopify-laser-eyes.png")
         },
       })
     }
@@ -240,7 +240,7 @@ const Sandbox: React.FC<Props> = ({ laser = Laser.Gold, portrait }: Props) => {
                 as="a"
                 target="_blank"
                 rel="noreferrer"
-                href="https://twitter.com/intent/tweet?text=Join%20the%20revolution.%20Be%20part%20of%20the%20laser%20eye%20family%20and%20update%20your%20profile%20picture%20today!&url=https%3A%2F%2Fcryptolasereyes.com&hashtags=LaserRayUntil100K"
+                href="https://twitter.com/intent/tweet?text=%23ShopifyUnite%20is%20back%20on%20June%2029th%21%20Get%20your%20new%20display%20picture%20here.&url=https%3A%2F%2Fcryptolasereyes.com"
               >
                 <SvgIcon iconKey="share" />
                 <span>Share</span>
