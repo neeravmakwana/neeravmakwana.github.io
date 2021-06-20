@@ -24,6 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
+  "homepage": "https://neeravmakwana.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
